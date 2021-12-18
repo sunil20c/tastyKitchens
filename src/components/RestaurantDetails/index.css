@@ -1,0 +1,65 @@
+.food-items-list {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  list-style: none;
+}
+
+.banner-main-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: Url('https://res.cloudinary.com/dndkedgtz/image/upload/v1639047618/Frame_279_zumy4c.png');
+  background-size: cover;
+}
+.restaurant-banner-details {
+  color: #ffffff;
+  font-family: 'Roboto';
+  display: flex;
+  flex-direction: column;
+  margin-left: 8px;
+  padding: 20px;
+}
+
+.failure-heading {
+  font-family: 'Roboto';
+  font-size: 32px;
+}
+
+.quantity-container {
+  display: flex;
+  align-items: center;
+}
+.quantity-change-button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  outline: none;
+}
+.two-containers {
+  display: flex;
+  align-items: center;
+}
+.restaurant-banner-image {
+  height: 300px;
+  width: 300px;
+  border-radius: 8px;
+}
+.rb-details {
+  font-family: 'Roboto';
+  font-size: 20px;
+}
+.rating-cost-container {
+  display: flex;
+  align-items: center;
+}
+.ratings-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.vertical-line {
+  border-left: 2px solid #ffffff;
+  height: 50px;
+  margin: 10px;
+}

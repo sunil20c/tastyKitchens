@@ -1,0 +1,28 @@
+.header-main-bg-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px;
+  background-color: #f8fafc;
+}
+
+.menu-bar-items {
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+.menu-list-item {
+  text-decoration: none;
+  margin-right: 5px;
+}
+.logout-button {
+  background-color: #f7931e;
+  color: #ffffff;
+  border-radius: 8px;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  padding: 8px;
+  font-family: 'Roboto';
+  font-size: 16px;
+}

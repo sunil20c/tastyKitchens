@@ -1,0 +1,29 @@
+.cart-list-item-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+  margin-bottom: 8px;
+}
+.title-image-container {
+  display: flex;
+}
+.cart-item-name {
+  font-family: 'Roboto';
+  font-size: 20px;
+  color: #64748b;
+}
+
+.cart-item-image {
+  height: 100px;
+  width: 100px;
+  padding: 5px;
+  border-radius: 20px;
+}
+@media screen and (min-width: 768px) {
+  .cart-item-image {
+    height: 100px;
+    width: 150px;
+    padding: 10px;
+  }
+}

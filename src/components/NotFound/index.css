@@ -1,0 +1,40 @@
+.nf-main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.not-found-image {
+  height: 100px;
+  width: 100px;
+}
+
+@media screen and (min-width: 768px) {
+  .not-found-image {
+    height: 200px;
+    width: 200px;
+  }
+}
+.nf-heading {
+  font-size: 32px;
+  font-family: 'Roboto';
+  color: #183b56;
+}
+.nf-text {
+  font-size: 24px;
+  font-family: 'Roboto';
+  color: #64748b;
+}
+.nf-button {
+  background-color: #f7931e;
+  border-radius: 8px;
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 12px;
+  padding: 8px;
+  border: none;
+  cursor: pointer;
+  outline: none;
+}

@@ -1,0 +1,55 @@
+.food-item-container {
+  display: flex;
+  margin: 5px;
+  padding: 6px;
+}
+
+.item-image {
+  height: 100px;
+  width: 100px;
+  border-radius: 8px;
+}
+
+@media screen and (min-width: 768px) {
+  .item-image {
+    height: 200px;
+    width: 200px;
+  }
+}
+.name {
+  font-family: 'Roboto';
+  font-size: 20px;
+  color: #183b56;
+}
+.cost {
+  font-family: 'Roboto';
+  font-size: 20px;
+  color: #64748b;
+}
+.rating {
+  font-family: 'Roboto';
+  font-size: 16px;
+  color: #64748b;
+}
+
+.add-button {
+  background-color: transparent;
+  border: 1px solid red;
+  border-radius: 8px;
+  padding: 8px;
+  cursor: pointer;
+  outline: none;
+}
+
+.details-section {
+  padding: 5px;
+}
+.food-star {
+  color: gold;
+  margin-right: 5px;
+}
+
+.fd-rating-container {
+  display: flex;
+  align-items: center;
+}

@@ -1,0 +1,55 @@
+.restaurant-item-container {
+  display: flex;
+  margin: 5px;
+  padding: 6px;
+  text-decoration: none;
+  font-family: 'Roboto';
+}
+.food-image {
+  height: 100px;
+  width: 150px;
+  border-radius: 8px;
+}
+
+@media screen and (min-width: 768px) {
+  .food-image {
+    height: 250px;
+    width: 300px;
+  }
+}
+
+.restaurant-details-section {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-decoration: none;
+  padding: 6px;
+}
+.restaurant-name {
+  font-family: 'Roboto';
+  font-size: 20px;
+  color: #183b56;
+}
+.ratings-container {
+  display: flex;
+  align-items: center;
+}
+.rs-rating-container {
+  display: flex;
+  align-items: center;
+}
+.cuisine {
+  font-family: 'Roboto';
+  font-size: 18px;
+  color: #64748b;
+}
+.ratings-data {
+  font-family: 'Roboto';
+  font-size: 18px;
+  color: #64748b;
+}
+
+.rs-star {
+  color: gold;
+  margin-right: 5px;
+}

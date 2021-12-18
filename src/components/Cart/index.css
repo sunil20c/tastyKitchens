@@ -1,0 +1,115 @@
+.cart-main-bg-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.empty-cart-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.order-now-button {
+  background-color: #f7931e;
+  color: #ffffff;
+  border-radius: 8px;
+  padding: 8px;
+  font-family: 'Roboto';
+  font-size: 14px;
+  cursor: pointer;
+  outline: none;
+  border: none;
+}
+
+.menu-items {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.quantity-container {
+  display: flex;
+  align-items: center;
+}
+.plus-button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  outline: none;
+}
+.minus-button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  outline: none;
+}
+.place-order-button {
+  display: flex;
+  align-self: flex-end;
+  margin-right: 25px;
+  background-color: #f7931e;
+  color: #ffffff;
+  border-radius: 8px;
+  padding: 8px;
+  border: none;
+  cursor: pointer;
+  outline: none;
+}
+.total-price-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.cart-items-container {
+  background-color: #f8fafc;
+  border-radius: 8px;
+  margin: 10px;
+  padding: 5px;
+}
+.menu-item {
+  font-family: 'Roboto';
+  color: #183b56;
+  font-size: 16px;
+  font-weight: bold;
+}
+.menu-quantity {
+  font-family: 'Roboto';
+  color: #183b56;
+  font-size: 16px;
+  font-weight: bold;
+}
+.menu-price {
+  font-family: 'Roboto';
+  color: #183b56;
+  font-size: 16px;
+  font-weight: bold;
+}
+.payment-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.py-heading {
+  font-family: 'Roboto';
+  color: #183b56;
+  font-size: 24px;
+}
+.py-text {
+  font-family: 'Roboto';
+  color: #64748b;
+  font-size: 20px;
+}
+.payment-button {
+  background-color: #f7931e;
+  border-radius: 8px;
+  font-family: 'Roboto';
+  font-size: 16px;
+  padding: 8px;
+  border: none;
+  color: #ffffff;
+  cursor: pointer;
+  outline: none;
+}

@@ -1,0 +1,8 @@
+.quantity-container {
+  display: flex;
+  align-items: center;
+}
+.quantity {
+  margin-left: 8px;
+  margin-right: 8px;
+}
